@@ -1,30 +1,292 @@
-- Título do jogo: A jornada do cangaço
-- Narrativa, como vai ser a história do seu jogo e seu mundo?
-* Lampião vai viajar pelo Brasil afim de acabar com as lendas que estão atrapalhando a vida das pessoas sendo de forma cômica ou até mesmo aterrorizando a vida delas.
+GDD — A Jornada do Cangaço
+
+Última atualização: 18-04-2026
+Versão: 1.0
+
+---
+
+🎮 Visão Geral
+
+| Campo                          | Informação                                             |
+| ------------------------------ | ------------------------------------------------------ |
+| **Título**                     | A Jornada do Cangaço                                   |
+| **Gênero**                     | Metroidvania                                           |
+| **Plataforma(s)**              | PC                                                     |
+| **Dimensão**                   | 2D                                                     |
+| **Público-alvo**               | Adolescentes                                           |
+| **Tempo de gameplay estimado** | (não definido)                                         |
+| **Número de fases**            | Regiões interligadas (biomas do Brasil)                |
+| **Referências principais**     | Hollow Knight, folclore brasileiro, cultura do cangaço |
+
+---
+
+🧠 Conceito Central
+
+ O jogador controla Lampião em uma jornada pelo Brasil para derrotar lendas folclóricas que estão causando caos. Ao longo da aventura, ele recupera seus poderes roubados, utilizando-os para explorar novas áreas e enfrentar desafios cada vez maiores.
+
+---
+
+📖 Narrativa
+
+História Principal
+
+Lampião percorre diversas regiões do Brasil enfrentando criaturas do folclore que estão prejudicando a população. Essas entidades roubaram seus poderes, e ao derrotá-las, ele recupera suas habilidades. Sua missão é restaurar o equilíbrio no país.
+
+---
+
+Ambientação / Mundo
+
+O jogo se passa no Brasil, misturando elementos históricos do cangaço com o folclore brasileiro. O mundo apresenta diferentes biomas e regiões, cada um com identidade própria, podendo variar entre tons cômicos e sombrios.
+
+---
+
+Premissa
+
+Lampião parte em jornada após ter seus poderes roubados por entidades folclóricas, que passaram a ameaçar a população. Ele precisa derrotá-las para recuperar suas habilidades e salvar o país.
+
+---
+
+🧍 Personagens
+
+Protagonista
+
+| Campo                     | Descrição                                                              |
+| ------------------------- | ---------------------------------------------------------------------- |
+| **Nome**                  | Lampião                                                                |
+| **Aparência**             | Inspirado no cangaceiro tradicional, com vestimentas típicas do sertão |
+| **Personalidade**         | Determinado, corajoso e com senso de justiça                           |
+| **Motivação**             | Recuperar seus poderes e salvar o Brasil                               |
+| **Arco do personagem**    | Evolui de um herói enfraquecido para um guerreiro completo             |
+| **Habilidades especiais** | Poderes adquiridos ao derrotar entidades folclóricas                   |
+
+---
+
+Antagonistas (Lendas Folclóricas)
+
+| Campo             | Descrição                                           |
+| ----------------- | --------------------------------------------------- |
+| **Nome**          | Variadas criaturas do folclore brasileiro           |
+| **Tipo**          | Inimigos / Chefes                                   |
+| **Aparência**     | Baseada nas representações tradicionais do folclore |
+| **Personalidade** | Variável (cômica ou ameaçadora)                     |
+| **Motivação**     | Espalhar caos e manter os poderes roubados          |
+| **Habilidades**   | Relacionadas aos mitos de cada entidade             |
+
+---
+
+🎮 Jogabilidade
+
+Loop Principal
+
+Explorar → Encontrar inimigos → Combater → Recuperar poderes → Desbloquear novas áreas → Repetir
+
+---
+
+Condição de Vitória
+
+Derrotar as principais entidades folclóricas e recuperar todos os poderes de Lampião.
+
+---
+
+Condição de Derrota
+
+Ser derrotado em combate.
+
+---
+
+Mecânicas Principais
+
+ **Como o/a personagem se move?**
+  Movimentação lateral com saltos, típico de metroidvania.
+
+ **Como o/a personagem interage com o mundo?**
+  Explorando áreas, enfrentando inimigos e desbloqueando caminhos com habilidades.
+
+ **Como o jogador progride?**
+  Através da aquisição de novas habilidades que liberam acesso a novas regiões.
+
+ **Como funciona o sistema de itens/inventário?**
+  Itens e habilidades são adquiridos ao longo do jogo e usados tanto para combate quanto exploração.
+
+---
+
+⚔️ Sistema de Combate
+
+Visão Geral
+
+Combate em tempo real, com foco em ação e reflexo, inspirado em jogos metroidvania.
+
+---
+
+Ataques e Habilidades
+
+```
+[Lampião]
+  Habilidade: Poder recuperado
+  Tipo: Variável
+  Execução: Obtido ao derrotar inimigos importantes
+  Animação: Depende da habilidade adquirida
+```
+
+---
+
+Inimigos
+
+| Nome                  | Comportamento | Fraqueza               | Habilidade      |
+| --------------------- | ------------- | ---------------------- | --------------- |
+| Criaturas folclóricas | Variado       | Dependente da criatura | Baseada no mito |
+
+---
+
+🗺️ Fases / Níveis
+
+Estrutura Geral
+
+| Campo                  | Descrição                     |
+| ---------------------- | ----------------------------- |
+| **Objetivo**           | Explorar e derrotar entidades |
+| **Ambientação**        | Biomas brasileiros            |
+| **Inimigos presentes** | Criaturas folclóricas         |
+| **Itens disponíveis**  | Poderes e habilidades         |
+| **Chefe**              | Sim (em áreas principais)     |
+
+---
+
+🎒 Itens
+
+| Nome    | Tipo        | Função               | Como obter          |
+| ------- | ----------- | -------------------- | ------------------- |
+| Poderes | Habilidade  | Combate e exploração | Derrotando inimigos |
+| Armas   | Equipamento | Aumentar combate     | Progressão no jogo  |
+
+---
+
+🎮 Controles
+
+| Plataforma | Ação      | Botão / Tecla |
+| ---------- | --------- | ------------- |
+| PC         | Mover     | WASD / Setas  |
+| PC         | Atacar    | Customizável  |
+| PC         | Interagir | Customizável  |
+
+---
+
+🎨 Estilo Visual
+
+Arte
+
+2D com estilo inspirado em jogos metroidvania.
+
+---
+
+Paleta de Cores
+
+Baseada nos biomas brasileiros, variando conforme a região.
+
+---
+
+Câmera
+
+Side-scroll (visão lateral).
+
+---
+
+Referências Visuais
+
+Inspirado em Hollow Knight e cultura nordestina.
+
+---
+
+🔊 Som e Música
+
+Trilha Sonora
+
+Inspirada na cultura brasileira, podendo variar entre regional e atmosférica.
+
+---
+
+Efeitos Sonoros (SFX)
+
+| Ação             | Som esperado       |
+| ---------------- | ------------------ |
+| Ataque           | Golpes impactantes |
+| Coleta de item   | Som de recompensa  |
+| Morte do inimigo | Som de derrota     |
+| Game over        | Som dramático      |
+
+---
+
+🖥️ Interface (UI/HUD)
+
+Elementos do HUD
+
+* Barra de vida
+* Habilidades
+* Possível mapa
+
+---
+
+Menus
+
+* [x] Menu principal
+* [x] Pausa
+* [ ] Inventário
+* [x] Game over / Tela de vitória
+* [ ] Configurações
+
+---
+
+⚙️ Requisitos Técnicos
+
+| Campo               | Detalhe   |
+| ------------------- | --------- |
+| **Engine**          | GameMaker |
+| **Linguagem**       | GML       |
+| **Plataforma alvo** | PC        |
+
+---
+
+💾 Sistema de Salvamento
+
+Sistema ainda não definido.
+
+---
+
+📈 Progressão e Recompensas
+
+O jogador evolui ao recuperar habilidades e poderes, permitindo acesso a novas áreas e aumentando sua capacidade de combate.
+
+---
+
+## ♿ Acessibilidade
+
+* [ ] Opção de legendas
+* [ ] Modo daltônico
+* [x] Controles remapeáveis
+* [ ] Ajuste de dificuldade
+
+---
+
+📚 Referências
+
+* Hollow Knight
+* Folclore brasileiro
+* Cultura do cangaço
+
+---
+
+💡 Brainstorm / Ideias Futuras
+
+* Novas habilidades baseadas em lendas específicas
+* Expansão do mapa com novas regiões
+* Sistema de upgrades
+
+---
+
+🕒 Histórico de Atualizações
+
+| Data       | Alteração            | Responsável |
+| ---------- | -------------------- | ----------- |
+| 18-04-2026 | Criação do documento | Leonardo  C.|
 
 
-- Gênero do jogo:
-* metroidvania 
-
-- Qual plataforma vai ser? 
-* Gamemaker
-
-- Fases:
-Regiões e biomas do país
-
-- Personagens: 
-lampião: Herói escolhido para salvar o Brasil das ameaças das lendas urbanas. Busca recuperar seu poder
-lendas folclóricas: vilões espalhados pelo Brasil. Roubaram o poder do Lampião
-
-- Qual público alvo do jogo? adolecentes
-
-- Mundo do jogo: Brasil cangaço
-
-- Combate, caso precise ter: estilo metroidvania (exemplo: hollow knight)
-
-- Jogabilidade, como o jogo vai funcionar? como o jogador vai interagir com o mundo? estilo metroidvania (exemplo: hollow knight)
-
-- Controles, quais botões vão ser necessários? Controle customizável
-
-- Itens. O jogo tem itens? Quais? Para que eles servem? 
-os itens são as armas ou poderes do lampião que ele adquire com o progresso no jogo
